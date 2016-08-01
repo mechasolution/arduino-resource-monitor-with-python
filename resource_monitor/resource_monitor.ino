@@ -11,7 +11,6 @@ char INFO[4][21];
 byte packet[10] = {0,};
 
 void setup() {
-  // put your setup code here, to run once:
   display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
   display.clearDisplay();
   display.setTextSize(1);
