@@ -28,4 +28,4 @@ while (True):
     ser.write(bytes([mem_p]))
     ser.write(str.encode("D"))
     ser.write(bytes([disk_p]))
-    time.sleep(2)#2초간 대기, LCD업데이트속도와, 아두이노 통신속도를 고려했을때, 이게 가장 적합한듯하다.
+    time.sleep(2)#2초간 대기, LCD업데이트속도와, 아두이노 통신속도를 고려했을때 이게 가장 적합한듯하다.
